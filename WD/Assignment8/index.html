@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Button Layout</title>
+  <style>
+    body {
+      background-color: #e6f0ff; /* Light blue background */
+      display: flex;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .div {
+      position: absolute;
+      top: 30%;
+    }
+
+    button {
+      background-color: #dbeafe; /* Light indigo */
+      padding: 25px;
+      border-width: 1px;
+      border-radius: 20px;
+      margin: 4px;
+      border: 1px solid #94a3b8;
+      font-weight: bold;
+      color: #1e3a8a; /* Dark blue text */
+    }
+
+    .corner {
+      padding: 20px;
+      background-color: #c7d2fe; /* Light violet */
+      border: solid #6b7280;
+      border-width: 1px;
+      border-radius: 20px;
+      color: #3730a3;
+    }
+
+    #center-button {
+      background: #a5f3fc; /* Soft cyan */
+      border: solid #0891b2;
+      padding: 30px;
+      border-radius: 10px;
+      border-width: 1px;
+      font-weight: bold;
+      color: #0e7490;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      transition: 0.2s;
+      background-color: #f0f9ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="div">
+    <button class="corner">Left</button>
+    <button>Others</button>
+    <button>Others</button>
+    <button id="center-button">Center</button>
+    <button>Others</button>
+    <button>Others</button>
+    <button class="corner">Right</button>
+  </div>
+</body>
+</html>
