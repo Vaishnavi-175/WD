@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+
+<students>
+    <student>
+        <name>John Doe</name>
+        <rollno>88</rollno>
+        <branch>Computer Science</branch>
+        <year>First Year</year>
+    </student>
+    <student>
+        <name>Jane Smith</name>
+        <rollno>89</rollno>
+        <branch>Information Technology</branch>
+        <year>Second Year</year>
+    </student>
+      <student>
+        <name>Mark Johnson</name>
+        <rollno>89</rollno>
+        <branch>Information Technology</branch>
+        <year>Second Year</year>
+    </student>
+</students>

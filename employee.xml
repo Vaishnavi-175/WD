@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employee.css"?>
+
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <id>101</id>
+        <designation>Software Engineer</designation>
+        <department>Development</department>
+        <salary>70000</salary>
+    </employee>
+
+    <employee>
+        <name>Jane Smith</name>
+        <id>102</id>
+        <designation>Project Manager</designation>
+        <department>Management</department>
+        <salary>95000</salary>
+    </employee>
+
+    <employee>
+        <name>Mark Johnson</name>
+        <id>103</id>
+        <designation>UI/UX Designer</designation>
+        <department>Design</department>
+        <salary>65000</salary>
+    </employee>
+</employees>

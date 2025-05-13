@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
+
+<library>
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Fiction</genre>
+        <publisher>HarperCollins</publisher>
+        <year>1988</year>
+        <isbn>9780061122415</isbn>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <genre>Programming</genre>
+        <publisher>Prentice Hall</publisher>
+        <year>2008</year>
+        <isbn>9780132350884</isbn>
+    </book>
+
+    <book>
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <genre>Computer Science</genre>
+        <publisher>MIT Press</publisher>
+        <year>2009</year>
+        <isbn>9780262033848</isbn>
+    </book>
+</library>

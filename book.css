@@ -1,0 +1,31 @@
+library {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+book {
+    display: block;
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #5c9ded;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a4d69;
+    margin-bottom: 5px;
+}
+
+author, genre, price, publish_year, isbn {
+    display: block;
+    font-size: 16px;
+    margin: 2px 0;
+    color: #333;
+}

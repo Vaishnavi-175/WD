@@ -1,0 +1,38 @@
+students {
+    display: block;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+student {
+    display: block;
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+name, rollno, branch, year {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+name {
+    font-weight: bold;
+    color: #2a4d69;
+}
+
+rollno {
+    color: #4b86b4;
+}
+
+branch {
+    color: #63ace5;
+}
+
+year {
+    color: #333;
+}

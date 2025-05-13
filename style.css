@@ -1,0 +1,152 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #b39ddb; /* Light Blue (unchanged) */
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 40px;
+}
+
+.social-links h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links ul li a:hover {
+    color: #e1f5fe; /* Lighter Blue */
+}
+
+.main-content {
+    width: 70%;
+    background-color: #f3e5f5; /* Light Purple */
+    color: #4a148c; /* Dark Purple for text */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #8e24aa; /* Purple color for headings */
+    border-bottom: 2px solid #8e24aa;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #d1c4e9; /* Lighter Purple */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #d1c4e9; /* Lighter Purple */
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+ul li:hover {
+    background-color: #b39ddb; /* Slightly darker Purple */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_catalog.xsl"?>
+<cdCatalog>
+    <cd>
+        <title>Thriller</title>
+        <artist>Michael Jackson</artist>
+        <genre>Pop</genre>
+        <releaseYear>1982</releaseYear>
+        <price>15.99</price>
+    </cd>
+    <cd>
+        <title>Back in Black</title>
+        <artist>AC/DC</artist>
+        <genre>Rock</genre>
+        <releaseYear>1980</releaseYear>
+        <price>12.99</price>
+    </cd>
+    <cd>
+        <title>The Dark Side of the Moon</title>
+        <artist>Pink Floyd</artist>
+        <genre>Progressive Rock</genre>
+        <releaseYear>1973</releaseYear>
+        <price>14.99</price>
+    </cd>
+    <cd>
+        <title>Rumours</title>
+        <artist>Fleetwood Mac</artist>
+        <genre>Rock</genre>
+        <releaseYear>1977</releaseYear>
+        <price>13.99</price>
+    </cd>
+    <cd>
+        <title>21</title>
+        <artist>Adele</artist>
+        <genre>Soul</genre>
+        <releaseYear>2011</releaseYear>
+        <price>11.99</price>
+    </cd>
+    <cd>
+        <title>Abbey Road</title>
+        <artist>The Beatles</artist>
+        <genre>Rock</genre>
+        <releaseYear>1969</releaseYear>
+        <price>16.49</price>
+    </cd>
+</cdCatalog>
