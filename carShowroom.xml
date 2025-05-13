@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "carShowroom.xsl"?> 
+<carShowroom>
+  <car id="001">
+    <brand>Toyota</brand>
+    <model>Innova</model>
+    <year>2020</year>
+    <color>Silver</color>
+    <fuel>Diesel</fuel>
+  </car>
+  <car id="002">
+    <brand>Honda</brand>
+    <model>City</model>
+    <year>2021</year>
+    <color>Black</color>
+    <fuel>Petrol</fuel>
+  </car>
+  <car id="003">
+    <brand>Ford</brand>
+    <model>Figo</model>
+    <year>2022</year>
+    <color>Red</color>
+    <fuel>Petrol</fuel>
+  </car>
+  <car id="004">
+    <brand>Hyundai</brand>
+    <model>i20</model>
+    <year>2023</year>
+    <color>White</color>
+    <fuel>Diesel</fuel>
+  </car>
+  <car id="005">
+    <brand>Mahindra</brand>
+    <model>Bolero</model>
+    <year>2022</year>
+    <color>Black</color>
+    <fuel>Diesel</fuel>
+  </car>
+  <car id="006">
+    <brand>Maruti</brand>
+    <model>Alto</model>
+    <year>2024</year>
+    <color>Blue</color>
+    <fuel>Petrol</fuel>
+  </car>
+</carShowroom>
